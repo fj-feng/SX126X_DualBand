@@ -50,6 +50,17 @@
 #define SX126X_RF_SW_RX_GPIO_PIN          GPIO_PIN_0
 #define SX126X_RF_SW_RX_GPIO_PORT         GPIOB
 
+//20240104 doulband add
+#define SX126X_RF_SW_POWER_GPIO_PIN          	GPIO_PIN_1
+#define SX126X_RF_SW_POWER_GPIO_PORT          GPIOB
+#define SX126X_RF_SW_TXSELECT_GPIO_PIN        GPIO_PIN_6
+#define SX126X_RF_SW_TXSELECT_GPIO_PORT       GPIOA
+#define SX126X_RF_SW_V1_GPIO_PIN          	 	GPIO_PIN_0
+#define SX126X_RF_SW_V1_GPIO_PORT         		GPIOB
+#define SX126X_RF_SW_V2_GPIO_PIN          	 	GPIO_PIN_2
+#define SX126X_RF_SW_V2_GPIO_PORT         		GPIOB
+
+
 /*Definition for RF DIO0*/
 #define SX126X_RF_DIO1_GPIO_CLK_ENABLE()  __HAL_RCC_GPIOA_CLK_ENABLE();
 #define SX126X_RF_DIO1_GPIO_PIN           GPIO_PIN_12
@@ -66,6 +77,12 @@
 #define RF_SWITCH_OFF                     0
 #define RF_SWITCH_TX                      1
 #define RF_SWITCH_RX                      2
+#define RF_SWITCH_TX_LB                      3
+#define RF_SWITCH_RX_LB                      4
+#define RF_SWITCH_TX_HB                      5
+#define RF_SWITCH_RX_HB                      6
+
+
 
 //----------------------------------------------------------------
 //                    Public Typedefs

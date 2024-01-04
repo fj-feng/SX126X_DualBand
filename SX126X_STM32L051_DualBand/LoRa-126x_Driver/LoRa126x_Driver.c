@@ -924,6 +924,26 @@ void SX126xSetRx( uint32_t timeout )
 }
 
 /**
+ * @brief  126x RX电路形式选择设置
+* @param  frequency RX工作的频率。根据频率设置接收电路，Low Band(430~510)设置为单端 RFI_N电路模式;High band(902~928MH)设置为单端 RFI_P电路模式;
+
+ */
+void SX126xSetRxSelect( uint32_t frequency )
+{
+  	if(frequency < 525 * 1000000 )
+		{
+			SX126xWriteRegister( 0x08E2, (SX126xReadRegister(0x08E2)|0x01) & 0xFD);//接收配置成单端 RFI_N电路模式,1:0=0x1；硬件电路决定的;
+//		 SX126xWriteRegister( 0x08E2, (SX126xReadRegister(0x08E2)|0x03) );//接收配置成差分,1:0=0x3；SX126X默认适配差分电路;
+		}
+	else
+		{
+			 SX126xWriteRegister( 0x08E2, (SX126xReadRegister(0x08E2)|0x02) & 0xFE);//接收配置成单端 RFI_P电路模式,1:0=0x2；
+//			 SX126xWriteRegister( 0x08E2, (SX126xReadRegister(0x08E2)|0x03) );//接收配置成差分,1:0=0x3；SX126X默认适配差分电路;
+		}  
+}
+
+
+/**
  * @brief  126x发送数据
  * @param  payload 数据包首地址
  * @param  size 数据包大小

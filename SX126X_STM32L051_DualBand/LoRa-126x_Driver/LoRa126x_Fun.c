@@ -288,7 +288,19 @@ void SX126xSendData( uint8_t* data, uint8_t len )
  */
 static void SX126xTxPrepare( void )
 {
-    g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_TX );
+   /*
+   g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_TX);
+	*/
+	
+	//Doul Band TX 
+		if(s_LoRaConfig.freq < 525 * 1000000 )
+		{
+			g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_TX_LB );
+		}
+		else
+		{
+			g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_TX_HB );
+		}
     SX126xCalibrateErr();
     SX126xClearAllIrqFlag();                   ///< 清除应用层IRQ标志
     SX126xClearIrqStatus( SX126X_IRQ_ALL );    ///< 清除硬件底层IRQ标志
@@ -317,7 +329,14 @@ void SX126xEnterRx( uint32_t timeout )
         SX126xPayloadLenConfig( s_LoRaConfig.payloadLen );
 
     g_rfState = RF_RX_ING;
-    SX126xSetRx( loraTimeout );
+		
+		/*
+		 SX126xSetRx( loraTimeout );
+		*/
+		
+		//Doul Band RX电路形式设置测单端电路 
+		SX126xSetRx( loraTimeout );	
+		SX126xSetRxSelect(s_LoRaConfig.freq);
 }
 
 /**
@@ -325,7 +344,19 @@ void SX126xEnterRx( uint32_t timeout )
  */
 static void SX126xRxPrepare( void )
 {
-    g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_RX );
+    /*
+   g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_RX);
+	*/
+	
+	//Doul Band TX 
+		if(s_LoRaConfig.freq < 525 * 1000000 )
+		{
+			g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_RX_LB );
+		}
+	else
+		{
+			g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_RX_HB );
+		}
     SX126xCalibrateErr();
     SX126xClearAllIrqFlag();                   ///< 清除应用层IRQ标志
     SX126xClearIrqStatus( SX126X_IRQ_ALL );    ///< 清除硬件底层IRQ标志
@@ -391,13 +422,30 @@ void SX126xStartCadRx( uint32_t rxTimeOut )
 
     s_cadExitMode = SX126X_CAD_RX;
 
-    g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_RX );
+  /*
+   g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_RX);
+	*/
+	
+	//Doul Band TX 
+		if(s_LoRaConfig.freq < 525 * 1000000 )
+		{
+			g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_RX_LB );
+		}
+	else
+		{
+			g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_RX_HB );
+		}
 
     SX126xCadParamsConfig( SX126X_CAD_RX, rxTimeOut );
     SX126xCadPrepare( SX126X_CAD_RX );
 
     g_rfState = RF_CAD_ING;
+	/*
     SX126xSetCad();
+	*/
+		//Doul Band RX电路形式设置测单端电路 
+		SX126xSetCad();
+		SX126xSetRxSelect(s_LoRaConfig.freq);
 }
 
 /**
@@ -939,7 +987,20 @@ SX126xLoraPktHeadType_t SX126xGetHeaderType( void )
  */
 void SX126xSendCarrierWave( void )
 {
-    g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_TX );
+	/*
+   g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_TX);
+	*/
+	
+	//Doul Band TX 
+		if(s_LoRaConfig.freq < 525 * 1000000 )
+		{
+			g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_TX_LB );
+		}
+	else
+		{
+			g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_TX_HB );
+		}
+		
     SX126xEnterStandby();
     SX126xClearAllIrqFlag();                   ///< 清除应用层IRQ标志
     SX126xClearIrqStatus( SX126X_IRQ_ALL );    ///< 清除硬件底层IRQ标志
@@ -955,7 +1016,20 @@ void SX126xSendCarrierWave( void )
  */
 void SX126xSendLoRaInfinitePreamble( void )
 {
-    g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_TX );
+	/*
+   g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_TX);
+	*/
+	
+	//Doul Band TX 
+		if(s_LoRaConfig.freq < 525 * 1000000 )
+		{
+			g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_TX_LB );
+		}
+	else
+		{
+			g_sx126xHardware.SetSwitchCtrl( RF_SWITCH_TX_HB );
+		}
+		
     SX126xEnterStandby();
     SX126xClearAllIrqFlag();                   ///< 清除应用层IRQ标志
     SX126xClearIrqStatus( SX126X_IRQ_ALL );    ///< 清除硬件底层IRQ标志

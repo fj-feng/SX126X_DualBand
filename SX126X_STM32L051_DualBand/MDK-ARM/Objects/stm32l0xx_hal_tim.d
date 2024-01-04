@@ -3,9 +3,9 @@
   ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h \
   ..\Core\Inc\stm32l0xx_hal_conf.h ..\Core\Inc\main.h \
   ..\Core\Inc\stm32l0xx_it.h \
-  D:\Keil\ARM\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  D:\Keil\ARM\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  D:\Keil\ARM\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
   ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h \
   ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h \
   ..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h \
@@ -16,7 +16,7 @@
   ..\Drivers\CMSIS\Include\core_cmFunc.h \
   ..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h \
   ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
-  D:\Keil\ARM\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
   ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h \
   ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h \
   ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h \

@@ -11,8 +11,8 @@
  *  时，上限配置下限配置470，上限配置510
  * @note 修改下方宏定义定义的值
  */
-#define SX126X_FREQ_LOWER_BOUND_IN_MHZ 470    // 频率下限，MHz
-#define SX126X_FREQ_UPPER_BOUND_IN_MHZ 510    // 频率上限，MHz
+#define SX126X_FREQ_LOWER_BOUND_IN_MHZ 430    // 频率下限，MHz
+#define SX126X_FREQ_UPPER_BOUND_IN_MHZ 930    // 频率上限，MHz
 
 /**
  * @brief LoRa芯片型号,三选一，影响频段校验
@@ -54,7 +54,7 @@ SX126X_POWER_ADDITION则为底层寄存器最大值减去实际值22-17=5*/
  * @param SX126X_USE_XTAL  LoRa使用无源晶振
  * @note 上述参数选其一替换下方宏定义
  */
-#define SX126X_USE_XTAL
+#define SX126X_USE_TCXO
 
 /**
  * @brief  如果使用有源晶振，设定DIO3给予有源晶振的电压（使用无源

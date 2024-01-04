@@ -354,6 +354,7 @@ void                SX126xSetDio2AsRfSwitchCtrl( bool enable );
 void                SX126xSetDio3AsTcxoCtrl( SX126xTcxoCtrlVoltage_t tcxoVoltage, uint32_t timeout );
 void                SX126xGetRxBufferStatus( SX126xRxBufferStatus_t* bufferStatus );
 void                SX126xSetRx( uint32_t timeout );
+void 								SX126xSetRxSelect( uint32_t frequency );
 void                SX126xSendPayload( uint8_t* payload, uint8_t size, uint32_t timeout );
 void                SX126X_TxContinuousWave( void );
 void                SX1262_TxInfinitePreamble( void );

@@ -12,6 +12,12 @@
 #define RF_SWITCH_TX  1
 #define RF_SWITCH_RX  2
 
+#define RF_SWITCH_TX_LB  3
+#define RF_SWITCH_RX_LB  4
+#define RF_SWITCH_TX_HB  5
+#define RF_SWITCH_RX_HB  6
+
+
 /*LoRa硬件资源结构体*/
 typedef struct
 {
