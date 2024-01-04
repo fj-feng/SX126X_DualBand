@@ -1,0 +1,1282 @@
+Dependencies for Project '1262node', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\startup_stm32l051xx.s)(0x5BBD61AA)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"STM32L051xx SETA 1"-o ./objects/startup_stm32l051xx.o)
+F (..\HARDWARE\Board\UART\uart.c)(0x637F37B2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/uart.o -MD)
+I (..\HARDWARE\Board\UART\uart.h)(0x6380845A)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+I (..\HARDWARE\Board\DMA\dma.h)(0x636B626E)
+I (..\HARDWARE\Board\RCC\rcc.h)(0x636C94A2)
+I (..\HARDWARE\Board\UART\stdarg.h)(0x5D09AAF8)
+F (..\HARDWARE\Board\TIMER\timer.c)(0x637F212C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/timer.o -MD)
+I (..\HARDWARE\Board\TIMER\timer.h)(0x637F214A)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\HARDWARE\Board\RCC\rcc.c)(0x5BEA3F68)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/rcc.o -MD)
+I (..\HARDWARE\Board\RCC\rcc.h)(0x636C94A2)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\HARDWARE\Board\Log\log.c)(0x63732716)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/log.o -MD)
+I (..\HARDWARE\Board\Log\log.h)(0x6372F1F8)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+F (..\HARDWARE\Board\GPIO\gpio.c)(0x653F708C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/gpio.o -MD)
+I (..\HARDWARE\Board\GPIO\gpio.h)(0x653F7087)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+I (..\LoRa-126x_Driver\LoRa126x_it.h)(0x6528E138)
+F (..\HARDWARE\Board\DMA\dma.c)(0x6413D328)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/dma.o -MD)
+I (..\HARDWARE\Board\DMA\dma.h)(0x636B626E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+I (..\HARDWARE\Board\UART\uart.h)(0x6380845A)
+F (..\HARDWARE\Board\SPI\spi.c)(0x6371E81E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/spi.o -MD)
+I (..\HARDWARE\Board\SPI\spi.h)(0x6371E215)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+I (..\HARDWARE\Board\GPIO\gpio.h)(0x653F7087)
+F (..\Core\Src\stm32l0xx_hal_msp.c)(0x5BBD61A6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_msp.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Core\Src\stm32l0xx_it.c)(0x63733FFF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_it.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+I (..\HARDWARE\Board\UART\uart.h)(0x6380845A)
+I (..\HARDWARE\Board\GPIO\gpio.h)(0x653F7087)
+F (..\Core\Src\main.c)(0x653F709F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/main.o -MD)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\HARDWARE\Board\TIMER\timer.h)(0x637F214A)
+I (..\HARDWARE\Board\UART\uart.h)(0x6380845A)
+I (..\HARDWARE\Board\RCC\rcc.h)(0x636C94A2)
+I (..\HARDWARE\Board\GPIO\gpio.h)(0x653F7087)
+I (..\HARDWARE\Board\DMA\dma.h)(0x636B626E)
+I (..\HARDWARE\Board\Log\log.h)(0x6372F1F8)
+I (..\LoRa-126x_Driver\LoRa126x_Fun.h)(0x65962963)
+I (..\LoRa-126x_Driver\LoRa126x_Driver.h)(0x658CD8A4)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\math.h)(0x603507CA)
+I (..\LoRa-126x_Driver\LoRa126x_it.h)(0x6528E138)
+I (..\LoRa-126x_Driver\LoRa126x_UserConfig.h)(0x659633EF)
+I (..\LoRa-126x_Driver\LoRa126x_Hal.h)(0x658CD8A4)
+I (..\HARDWARE\Board\SPI\spi.h)(0x6371E215)
+I (..\App\TestFun.h)(0x64F1B822)
+I (..\App\uartString.h)(0x64F1501C)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c)(0x636B777A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_adc.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_adc.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_adc_ex.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_adc_ex.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_crc.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_crc.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_crc_ex.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_crc_ex.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_dma.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_dma.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_flash.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash_ex.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_flash_ex.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash_ramfunc.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_flash_ramfunc.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_gpio.c)(0x5C243CD8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_gpio.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_i2c.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c_ex.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_i2c_ex.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_pwr.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr_ex.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_pwr_ex.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_rcc.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc_ex.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_rcc_ex.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_spi.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_spi.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tim.c)(0x5D108920)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_tim.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tim_ex.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_tim_ex.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_uart.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_uart.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_uart_ex.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_uart_ex.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_cortex.c)(0x5BBD618E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/stm32l0xx_hal_cortex.o -MD)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\Core\Src\system_stm32l0xx.c)(0x5BBD618C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/system_stm32l0xx.o -MD)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+F (..\LoRa-126x_Driver\LoRa126x_Driver.c)(0x659616BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/lora126x_driver.o -MD)
+I (..\LoRa-126x_Driver\LoRa126x_Driver.h)(0x658CD8A4)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\math.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (..\LoRa-126x_Driver\LoRa126x_Hal.h)(0x658CD8A4)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\LoRa-126x_Driver\LoRa126x_Regs.h)(0x6528E12B)
+I (..\LoRa-126x_Driver\LoRa126x_UserConfig.h)(0x659633EF)
+F (..\LoRa-126x_Driver\LoRa126x_Hal.c)(0x658CD8A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/lora126x_hal.o -MD)
+I (..\LoRa-126x_Driver\LoRa126x_Hal.h)(0x658CD8A4)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (..\LoRa-126x_Driver\LoRa126x_UserConfig.h)(0x659633EF)
+I (..\LoRa-126x_Driver\LoRa126x_Driver.h)(0x658CD8A4)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\math.h)(0x603507CA)
+F (..\LoRa-126x_Driver\LoRa126x_Fun.c)(0x65963417)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/lora126x_fun.o -MD)
+I (..\LoRa-126x_Driver\LoRa126x_Fun.h)(0x65962963)
+I (..\LoRa-126x_Driver\LoRa126x_Driver.h)(0x658CD8A4)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\math.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (..\LoRa-126x_Driver\LoRa126x_it.h)(0x6528E138)
+I (..\LoRa-126x_Driver\LoRa126x_UserConfig.h)(0x659633EF)
+I (..\LoRa-126x_Driver\LoRa126x_Hal.h)(0x658CD8A4)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+F (..\LoRa-126x_Driver\LoRa126x_it.c)(0x6583ADD0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/lora126x_it.o -MD)
+I (..\LoRa-126x_Driver\LoRa126x_it.h)(0x6528E138)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (..\LoRa-126x_Driver\LoRa126x_Fun.h)(0x65962963)
+I (..\LoRa-126x_Driver\LoRa126x_Driver.h)(0x658CD8A4)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\math.h)(0x603507CA)
+I (..\LoRa-126x_Driver\LoRa126x_UserConfig.h)(0x659633EF)
+F (..\App\TestFun.c)(0x65963467)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/testfun.o -MD)
+I (..\App\TestFun.h)(0x64F1B822)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\LoRa-126x_Driver\LoRa126x_Fun.h)(0x65962963)
+I (..\LoRa-126x_Driver\LoRa126x_Driver.h)(0x658CD8A4)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\math.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (..\LoRa-126x_Driver\LoRa126x_it.h)(0x6528E138)
+I (..\LoRa-126x_Driver\LoRa126x_UserConfig.h)(0x659633EF)
+I (..\App\uartString.h)(0x64F1501C)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\HARDWARE\Board\UART\uart.h)(0x6380845A)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BBD618E)
+I (..\Core\Inc\stm32l0xx_hal_conf.h)(0x5BC00E08)
+I (..\Core\Inc\main.h)(0x636B671A)
+I (..\Core\Inc\stm32l0xx_it.h)(0x636B679E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5D3EE16E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x5BBD618C)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBD618E)
+I (..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x5BBD618C)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x5BBD618E)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BBD618E)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BBD618E)
+I (..\HARDWARE\Board\Log\log.h)(0x6372F1F8)
+I (..\HARDWARE\Board\GPIO\gpio.h)(0x653F7087)
+I (..\HARDWARE\Board\TIMER\timer.h)(0x637F214A)
+F (..\App\uartString.c)(0x64F1A2F7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc -I ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ../HARDWARE/SX126X -I ../HARDWARE/Board/EXTI -I ../HARDWARE/Board/RCC -I ../HARDWARE/Board/SPI -I ../HARDWARE/Board/TIMER -I ../HARDWARE/Board/UART -I ../LoRa-126x_Driver -I ../HARDWARE/Board/Log -I ../HARDWARE/Board/GPIO -I ../HARDWARE/Board/DMA -I ../App-ID:/Keil/Packs/Keil/STM32L0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="536" -DSTM32L051xx -DUSE_HAL_DRIVER -DSTM32L051xx-o ./objects/uartstring.o -MD)
+I (..\App\uartString.h)(0x64F1501C)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (D:\Keil\ARM\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)

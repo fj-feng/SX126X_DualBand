@@ -1,0 +1,225 @@
+---
+# 语言: None, Cpp, Java, JavaScript, ObjC, Proto, TableGen, TextProto
+Language: Cpp
+# 未特别配置的风格将基于LLVM, Google, Chromium, Mozilla, WebKit, Microsoft, GNU
+BasedOnStyle: Google
+# 访问说明符(public、private等)的偏移
+AccessModifierOffset: -1
+# 开括号(开圆括号、开尖括号、开方括号)后的对齐: Align, DontAlign, AlwaysBreak(总是在开括号后换行)
+AlignAfterOpenBracket: Align
+#在对结构数组使用初始化时将字段对齐为列。(结构体中有中文字符串时会导致对齐错乱，有中文字符串应用时选择None)
+AlignArrayOfStructures: Left
+# 连续赋值时，对齐所有等号
+AlignConsecutiveAssignments: AcrossEmptyLines
+# 连续赋值时，对齐所有位域
+AlignConsecutiveBitFields: AcrossEmptyLines
+# 连续声明时，对齐所有声明的变量名
+AlignConsecutiveDeclarations: AcrossEmptyLines
+# 对齐连续宏定义
+AlignConsecutiveMacros: AcrossEmptyLinesAndComments
+# 逃脱换行(使用反斜杠换行)的反斜杠
+AlignEscapedNewlines: Right
+# 操作数对齐方式
+AlignOperands: true
+# 尾随的注释对齐
+AlignTrailingComments: true
+# 允许函数参数在一行
+AllowAllArgumentsOnNextLine: false
+# 允许函数声明的所有参数在放在一行
+AllowAllParametersOfDeclarationOnNextLine: false
+# 允许短的块放在同一行
+AllowShortBlocksOnASingleLine: Never
+# 允许短的case标签放在同一行
+AllowShortCaseLabelsOnASingleLine: false
+# 允许在单行上使用短枚举
+AllowShortEnumsOnASingleLine: false
+# 允许短的函数放在同一行
+AllowShortFunctionsOnASingleLine: None
+# 允许短的if语句保持在同一行
+AllowShortIfStatementsOnASingleLine: Never
+# 根据值的不同，auto lambda[](){返回0;}可以放在单行上
+AllowShortLambdasOnASingleLine: None
+# 允许短的循环while保持在同一行
+AllowShortLoopsOnASingleLine: false
+# 函数定义返回要使用的类型转换样式。此选项已弃用，保留是为了向后兼容。
+AlwaysBreakAfterDefinitionReturnType: None
+# 总是在返回类型后换行
+AlwaysBreakAfterReturnType: None
+# 总是在多行string字面量前换行
+AlwaysBreakBeforeMultilineStrings: false
+# 总是在template声明后换行
+AlwaysBreakTemplateDeclarations: Yes
+# 表示函数实参要么都在同一行，要么都各自一行
+BinPackArguments: false
+# false表示所有形参要么都在同一行，要么都各自一行
+BinPackParameters: false
+# 在位域字段的“:”前后是否需要加空格
+BitFieldColonSpacing: Both
+# 如果breakbeforebrace设置为Custom，则使用它来指定应该如何处理每个独立的大括号换行。否则，它将被忽略
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterObjCDeclaration: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterExternBlock: true
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: true
+  BeforeWhile: false
+  IndentBraces: false
+  SplitEmptyFunction: true
+  SplitEmptyNamespace: true
+# 在二元运算符前换行
+BreakBeforeBinaryOperators: None
+# 在三元运算符前换行
+BreakBeforeTernaryOperators: true
+# The brace breaking style to use. Allman:总是在大括号之前换行
+# BreakBeforeBraces: Allman #此设置在新版本不再兼容
+# The break constructor initializers style to use.
+BreakConstructorInitializers: AfterColon
+# The inheritance list style to use
+BreakInheritanceList: AfterColon
+# Allow breaking string literals when formatting
+BreakStringLiterals: false
+# 每行字符的限制，0表示没有限制
+ColumnLimit: 120
+# 描述具有特殊意义的注释的正则表达式，它不应该被分割为多行或以其它方式改变
+CommentPragmas: "^ IWYU pragma:"
+# 如果为true，则连续的名称空间声明将在同一行上。如果为false，则每个名称空间都在新行中声明。
+CompactNamespaces: false
+# 构造函数的初始化列表的缩进宽度
+ConstructorInitializerIndentWidth: 4
+# 延续的行的缩进宽度
+ContinuationIndentWidth: 4
+# 去除C++11的列表初始化的大括号{后和}前的空格
+Cpp11BracedListStyle: false
+# 继承最常用的指针和引用的对齐方式
+DerivePointerAlignment: false
+# 关闭格式化
+DisableFormat: false
+#定义何时在访问修饰符之后放置空行
+EmptyLineAfterAccessModifier: Never
+#定义何时在访问修饰符之前放置空行
+EmptyLineBeforeAccessModifier: LogicalBlock
+# 自动检测函数的调用和定义是否被格式为每行一个参数(Experimental)
+ExperimentalAutoDetectBinPacking: false
+# If true, clang-format adds missing namespace end comments for short namespaces and fixes invalid existing ones. Short ones are controlled by “ShortNamespaceLines”.
+FixNamespaceComments: true
+# 需要被解读为foreach循环而不是函数调用的宏
+ForEachMacros: [foreach, Q_FOREACH, BOOST_FOREACH]
+# 根据该值，多个#include块可以被排序为一个，并根据类别进行划分
+IncludeBlocks: Preserve
+# 指定访问修饰符是否应该有自己的缩进级别
+IndentAccessModifiers: false
+# 缩进case label将case label隔一层
+IndentCaseBlocks: false
+# 缩进case标签
+IndentCaseLabels: true
+# 要使用的预处理器指令缩进样式
+IndentPPDirectives: BeforeHash
+# 缩进宽度
+IndentWidth: 4
+# 函数返回类型换行时，缩进函数声明或函数定义的函数名
+IndentWrappedFunctionNames: false
+# 保留在块开始处的空行
+KeepEmptyLinesAtTheStartOfBlocks: false
+# 开始一个块的宏的正则表达式
+MacroBlockBegin: ""
+# 结束一个块的宏的正则表达式
+MacroBlockEnd: ""
+# 连续空行的最大数量
+MaxEmptyLinesToKeep: 1
+# 命名空间的缩进
+NamespaceIndentation: All
+# 用于预处理器语句缩进
+PPIndentWidth: 4
+# 要使用的包构造函数初始化式样式
+PackConstructorInitializers: NextLine
+# 缩进预处理器语句的列数
+PenaltyBreakBeforeFirstCallParameter: 1
+PenaltyBreakComment: 300
+PenaltyBreakFirstLessLess: 120
+PenaltyBreakString: 1000
+PenaltyExcessCharacter: 1000000
+PenaltyReturnTypeOnItsOwnLine: 200
+PointerAlignment: Left
+# 允许重新排版注释
+ReflowComments: true
+# 允许排序#include
+SortIncludes: Never
+# 在C风格类型转换后添加空格
+SpaceAfterCStyleCast: true
+# 在逻辑非后添加空格
+SpaceAfterLogicalNot: true
+# 在关键字Template后面加入空格
+SpaceAfterTemplateKeyword: true
+# 在赋值运算符之前添加空格
+SpaceBeforeAssignmentOperators: true
+# 在case后面加空格
+SpaceBeforeCaseColon: false
+# 如果为true，则在用于初始化对象的c++ 11大括号列表(前面的标识符或类型之后)之前插入一个空格
+SpaceBeforeCpp11BracedList: true
+# 如果为false，则在构造函数初始化式冒号之前删除空格
+SpaceBeforeCtorInitializerColon: false
+# 如果为false，则继承冒号前的空格将被删除
+SpaceBeforeInheritanceColon: false
+# 开圆括号之前添加一个空格
+SpaceBeforeParens: Never
+# 如果为false，则在基于范围的for循环冒号之前删除空格
+SpaceBeforeRangeBasedForLoopColon: true
+# 如果为true，空格将在[之前。Lambdas不会受到影响。只有第一个[会被添加一个空格
+SpaceBeforeSquareBrackets: false
+# 如果为true，将在{}中插入空格
+SpaceInEmptyBlock: false
+# 在空的圆括号中添加空格
+SpaceInEmptyParentheses: false
+# 在尾随的评论前添加的空格数(只适用于//)
+SpacesBeforeTrailingComments: 4
+# 在尖括号的<后和>前添加空格
+SpacesInAngles: true
+# 在C风格类型转换的括号中添加空格
+SpacesInCStyleCastParentheses: false
+# 如果为true，将在If /for/switch/while条件周围插入空格
+SpacesInConditionalStatement: false
+# 在容器(ObjC和JavaScript的数组和字典等)字面量中添加空格
+SpacesInContainerLiterals: true
+# 行注释开头允许有多少个空格。要禁用最大值，请将其设置为-1，除此之外，最大值优先于最小值
+# Max建议设置-1，设置为1的情况下会在有些注释下出现bug，比如原本被注释的字段保存后会恢复成有效代码和某些注释保存后某行注释消失等bug（如下代码）,bug发现于2022.10.10
+#//代码1，保存后，if(1)和下发第一个{ 会被解除注释效果变成有效代码
+#//    AAA
+#    // if( 1 )
+#    // {
+#
+#    // }
+#    // }
+#//代码2，保存后，if那行代码会消失
+# //                         AAA
+#    //                                              if( 1 )
+#    // {
+#
+#    // }
+#    // }
+SpacesInLineCommentPrefix:
+  Minimum: 1
+  Maximum: -1
+# 在圆括号的(后和)前添加空格
+SpacesInParentheses: true
+# 在方括号的[后和]前添加空格，lamda表达式和未指明大小的数组的声明不受影响
+SpacesInSquareBrackets: true
+# 标准
+Standard: Auto
+# tab宽度
+TabWidth: 4
+# 使用tab字符：ForIndentation——仅将制表符用于缩进
+UseTab: Never
+
+# BreakConstructorInitializersBeforeComma: false  未在官网查到该配置，暂时屏蔽
+# AlignEscapedNewlinesLeft: true  未在官网查到该配置，暂时屏蔽
+---
+
